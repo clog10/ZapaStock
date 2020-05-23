@@ -1,0 +1,31 @@
+Sat Apr 25 09:54:43 CDT 2020 : Servidor de red Apache Derby: Se ha iniciado 10.11.1.2 - (1629631) y está listo para aceptar las conexiones en el puerto 1527
+----------------------------------------------------------------
+Sat Apr 25 09:54:45 CDT 2020:
+ Iniciando instancia a816c00e-0171-b1d5-50fe-0000498a2ef8 de Derby, versión The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): 
+en el directorio de base de datos C:\Users\User\Documents\6° SEMESTRE\Ing. de Software\MayLu\bdzapateriamaylu con el cargador de clases sun.misc.Launcher$AppClassLoader@6f94fa3e
+Cargado desde file:/C:/Program%20Files/Java/jdk1.8.0_111/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Program Files\Java\jdk1.8.0_111\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\User\Documents\6° SEMESTRE\Ing. de Software\MayLu
+Cargador de clases de base de datos iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 25 09:55:16 CDT 2020:
+Cerrando la instancia a816c00e-0171-b1d5-50fe-0000498a2ef8 en el directorio de base de datos C:\Users\User\Documents\6° SEMESTRE\Ing. de Software\MayLu\bdzapateriamaylu con cargador de clases sun.misc.Launcher$AppClassLoader@6f94fa3e
+Sat Apr 25 09:55:16 CDT 2020 Thread[DRDAConnThread_3,5,main] (DATABASE = bdzapateriamaylu), (DRDAID = {2}), Cierre de la base de datos 'bdzapateriamaylu'.
+----------------------------------------------------------------
+Sat Apr 25 09:55:32 CDT 2020:
+ Iniciando instancia a65c80ac-0171-b1d5-50fe-0000498a2ef8 de Derby, versión The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): 
+en el directorio de base de datos C:\Users\User\Documents\6° SEMESTRE\Ing. de Software\MayLu\bdzapateriamaylu con el cargador de clases sun.misc.Launcher$AppClassLoader@6f94fa3e
+Cargado desde file:/C:/Program%20Files/Java/jdk1.8.0_111/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Program Files\Java\jdk1.8.0_111\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\User\Documents\6° SEMESTRE\Ing. de Software\MayLu
+Cargador de clases de base de datos iniciado - derby.database.classpath=''
