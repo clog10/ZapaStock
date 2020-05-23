@@ -1,0 +1,5 @@
+# ZapaStock
+
+Proyecto Ingenieria de software
+
+NANCY YESENIA, CARLOS DE JESÚS, ROBERTO CARLOS, ERNESTO, DAVID ALEJANDRO, ENRIQUE
