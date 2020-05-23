@@ -1,5 +1,5 @@
 # ZapaStock
 
-Proyecto Ingenieria de software
+Integrantes
 
 NANCY YESENIA, CARLOS DE JESÚS, ROBERTO CARLOS, ERNESTO, DAVID ALEJANDRO, ENRIQUE
