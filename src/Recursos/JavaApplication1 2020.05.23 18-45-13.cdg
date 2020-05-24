@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="JavaApplication1">
+  <ClassDiagramComponents>
+    <Class name="Abono" package="panels" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jSeparator1" type="javax.swing.JSeparator" visibility="private"/>
+        <Field name="jSeparator2" type="javax.swing.JSeparator" visibility="private"/>
+        <Field name="jTextField1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jTextField2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="materialButtomRectangle1" type="principal.MaterialButtomRectangle" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="Apartado" package="panels" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="con" type="Conexion" visibility="package"/>
+        <Field name="cnn" type="Connection" visibility="package"/>
+        <Field name="st" type="Statement" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="modelo" type="DefaultTableModel" visibility="package"/>
+        <Field name="jCTextField1" type="app.bolivia.swing.JCTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextField1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtApartado" type="javax.swing.JTable" visibility="private"/>
+        <Field name="materialButtomRectangle1" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle2" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle3" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="panelRound1" type="org.edisoncor.gui.panel.PanelRound" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrar" returnType="void" visibility="package">
+          <Argument type="String" name="valor"/>
+        </Method>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="Buscarpro" package="panels" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="con" type="Conexion" visibility="package"/>
+        <Field name="cnn" type="Connection" visibility="package"/>
+        <Field name="st" type="Statement" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="modelo" type="DefaultTableModel" visibility="package"/>
+        <Field name="jCTextField1" type="app.bolivia.swing.JCTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jbAgregar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbBuscar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbRegresar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbgOpciones" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="jrbBisuteria" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jrbZapateria" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jtBuscarPro" type="javax.swing.JTable" visibility="private"/>
+        <Field name="panelRound1" type="org.edisoncor.gui.panel.PanelRound" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrar" returnType="void" visibility="package">
+          <Argument type="String" name="valor"/>
+        </Method>
+        <Method name="meto" returnType="void" visibility="package"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jbRegresarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jrbZapateriaMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbAgregarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Catalogo" package="panels" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="jCTextField1" type="app.bolivia.swing.JCTextField" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="materialButtomRectangle1" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="panelRound1" type="org.edisoncor.gui.panel.PanelRound" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="Conexion" package="panels" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="conect" type="Connection" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="conexion" returnType="Connection" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Login" package="panels" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="framePrincipal" type="Principal" visibility="package"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jSeparator1" type="javax.swing.JSeparator" visibility="private"/>
+        <Field name="jSeparator2" type="javax.swing.JSeparator" visibility="private"/>
+        <Field name="jbtCerrar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbtMinimizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jpPass" type="org.edisoncor.gui.passwordField.PasswordFieldRectBackground" visibility="private"/>
+        <Field name="jtfUser" type="app.bolivia.swing.JCTextField" visibility="private"/>
+        <Field name="materialButtomRectangle1" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="panelGradient1" type="PanelGradient.PanelGradient" visibility="private"/>
+        <Field name="panelGradient2" type="PanelGradient.PanelGradient" visibility="private"/>
+        <Field name="panelImage1" type="org.edisoncor.gui.panel.PanelImage" visibility="private"/>
+        <Field name="panelImage2" type="org.edisoncor.gui.panel.PanelImage" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jbtCerrarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbtMinimizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="materialButtomRectangle1MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Logo" package="panels" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="NewJFrame" package="panels" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields>
+        <Field name="con" type="Conexion" visibility="package"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Pago" package="panels" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jSeparator1" type="javax.swing.JSeparator" visibility="private"/>
+        <Field name="jSeparator2" type="javax.swing.JSeparator" visibility="private"/>
+        <Field name="jTextField1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jTextField2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="materialButtomRectangle1" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle2" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle3" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle4" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle5" type="principal.MaterialButtomRectangle" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="Principal" package="panels" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Fields>
+        <Field name="panelLogo" type="Logo" visibility="package"/>
+        <Field name="panelregpro" type="Registroproductos" visibility="package"/>
+        <Field name="panelApartado" type="Apartado" visibility="package"/>
+        <Field name="panelVenta" type="Venta" visibility="package"/>
+        <Field name="panelCatalogo" type="Catalogo" visibility="package"/>
+        <Field name="panelUsuario" type="Usuarionuevo" visibility="package"/>
+        <Field name="contenedor" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jbApartado" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbCatalogo" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbFacturaRE" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbFacturaV" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbProductoC" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbProductosR" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbProdutosRE" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbRegistros" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbReportes" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbVentas" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="panelGradient1" type="PanelGradient.PanelGradient" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jbVentasMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbVentasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbCatalogoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbApartadoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbCatalogoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosMouseEntered" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosMouseExited" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbReportesMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbProductosRMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbProductosRActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbFacturaVMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbProductoCMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Principaladmin" package="panels" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Fields>
+        <Field name="panelLogo" type="Logo" visibility="package"/>
+        <Field name="panelregpro" type="Registroproductos" visibility="package"/>
+        <Field name="panelApartado" type="Apartado" visibility="package"/>
+        <Field name="panelVenta" type="Venta" visibility="package"/>
+        <Field name="panelCatalogo" type="Catalogo" visibility="package"/>
+        <Field name="panelUsuario" type="Usuarionuevo" visibility="package"/>
+        <Field name="contenedor" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jbApartado" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbCatalogo" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbFacturaRE" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbFacturaV" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbProductoC" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbProductosR" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbProdutosRE" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbRegistros" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbReportes" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="jbUsuarioR" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jbVentas" type="rojerusan.RSButtonIconI" visibility="private"/>
+        <Field name="panelGradient1" type="PanelGradient.PanelGradient" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jbVentasMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbVentasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbCatalogoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbApartadoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbCatalogoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosMouseEntered" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosMouseExited" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbRegistrosMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbReportesMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbProductosRMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbProductosRActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbFacturaVMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbProductoCMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbUsuarioRMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbUsuarioRActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Registroproductos" package="panels" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields>
+        <Field name="con" type="Conexion" visibility="package"/>
+        <Field name="cnn" type="Connection" visibility="package"/>
+        <Field name="st" type="Statement" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="modelo" type="DefaultTableModel" visibility="package"/>
+        <Field name="si" type="String" visibility="package"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jbActualizar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbBuscar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbEliminar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbGuardar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbModificar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbNuevo" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jbSelecionarImg" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jtbRegistro" type="javax.swing.JTable" visibility="private"/>
+        <Field name="jtfBuscar" type="app.bolivia.swing.JCTextField" visibility="private"/>
+        <Field name="jtfCodigo" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfColor" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfDescripcion" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfMarca" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfModelo" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfNomImg" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfNumeracion" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfPrecio" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfStock" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="lblFoto" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="panelRound1" type="org.edisoncor.gui.panel.PanelRound" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="deshabilitar" returnType="void" visibility="package"/>
+        <Method name="limpiar" returnType="void" visibility="package"/>
+        <Method name="mostrar" returnType="void" visibility="package">
+          <Argument type="String" name="valor"/>
+        </Method>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jtfPrecioActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbGuardarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbSelecionarImgActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jbNuevoMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbBuscarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbEliminarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbActualizarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jbModificarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jtfCodigoKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jtfDescripcionKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jtfColorKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jtfMarcaKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jtfModeloKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jtfNumeracionKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jtfStockKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jtfPrecioKeyTyped" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Usuarionuevo" package="panels" visibility="public" xPosition="1220.0" yPosition="420.0">
+      <Fields>
+        <Field name="con" type="Conexion" visibility="package"/>
+        <Field name="cnn" type="Connection" visibility="package"/>
+        <Field name="st" type="Statement" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="modelo" type="DefaultTableModel" visibility="package"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jbRegistrar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jcbTipoUsu" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="jtUsuario" type="javax.swing.JTable" visibility="private"/>
+        <Field name="jtfContrasena" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfID" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jtfNombre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="materialButtomRectangle1" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle3" type="principal.MaterialButtomRectangle" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrar" returnType="void" visibility="package"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jbRegistrarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Venta" package="panels" visibility="public" xPosition="1520.0" yPosition="420.0">
+      <Fields>
+        <Field name="con" type="Conexion" visibility="package"/>
+        <Field name="cnn" type="Connection" visibility="package"/>
+        <Field name="st" type="Statement" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="modelo2" type="DefaultTableModel" visibility="package"/>
+        <Field name="jCTextField1" type="app.bolivia.swing.JCTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jbBuscar" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="jtVenta" type="javax.swing.JTable" visibility="private"/>
+        <Field name="materialButtomRectangle1" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="materialButtomRectangle3" type="principal.MaterialButtomRectangle" visibility="private"/>
+        <Field name="panelRound1" type="org.edisoncor.gui.panel.PanelRound" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="mostrar" returnType="void" visibility="package">
+          <Argument type="String" name="valor"/>
+        </Method>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="jbBuscarMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="panelUsuario" source="panels.Principal" target="panels.Usuarionuevo" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelregpro" source="panels.Principaladmin" target="panels.Registroproductos" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelCatalogo" source="panels.Principaladmin" target="panels.Catalogo" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="con" source="panels.NewJFrame" target="panels.Conexion" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="framePrincipal" source="panels.Login" target="panels.Principal" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelVenta" source="panels.Principaladmin" target="panels.Venta" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="con" source="panels.Buscarpro" target="panels.Conexion" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelUsuario" source="panels.Principaladmin" target="panels.Usuarionuevo" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="con" source="panels.Registroproductos" target="panels.Conexion" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelLogo" source="panels.Principal" target="panels.Logo" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="con" source="panels.Usuarionuevo" target="panels.Conexion" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelCatalogo" source="panels.Principal" target="panels.Catalogo" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelApartado" source="panels.Principal" target="panels.Apartado" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelregpro" source="panels.Principal" target="panels.Registroproductos" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelApartado" source="panels.Principaladmin" target="panels.Apartado" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelLogo" source="panels.Principaladmin" target="panels.Logo" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="con" source="panels.Venta" target="panels.Conexion" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="panelVenta" source="panels.Principal" target="panels.Venta" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="con" source="panels.Apartado" target="panels.Conexion" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
